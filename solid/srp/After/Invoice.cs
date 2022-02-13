@@ -1,6 +1,5 @@
-namespace Before;
+namespace After;
 
-using System;
 public class Invoice
 {
     public double Amount { get; set; }
