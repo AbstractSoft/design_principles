@@ -1,8 +1,8 @@
 namespace After;
 
-public class LoggerServiceService : ILoggerService
+public class LoggerService : ILoggerService
 {
-    public LoggerServiceService()
+    public LoggerService()
     {
         // here we need to write the Code for initialization 
         // that is Creating the Log file with necesssary details
