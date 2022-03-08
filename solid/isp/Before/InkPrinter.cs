@@ -1,6 +1,6 @@
-namespace Before;
+﻿namespace Before;
 
-public class HPLaserJetPrinter : IPrinterTasks
+public class InkPrinter : IPrinterTasks
 {
     public void Print(string printContent)
     {
@@ -14,11 +14,11 @@ public class HPLaserJetPrinter : IPrinterTasks
     
     public void Fax(string faxContent)
     {
-        Console.WriteLine("Fax content");
+        throw new NotImplementedException();
     }
     
     public void PrintDuplex(string printDuplexContent)
     {
-        Console.WriteLine("Print Duplex content");
+        throw new NotImplementedException();
     }
 }
